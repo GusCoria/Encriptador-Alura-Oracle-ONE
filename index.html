@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./carpeta_css/styles.css">
+    <script src="./carpeta_js/logica.js"></script>
+    <title>Challenge 01 - Oracle Next Education ONE</title>
+</head>
+<body>
+    <div class="container">
+        <div class="PrimCol">
+            <div class="alura">
+                <img src="./carpeta_imagenes/alura.png" alt="">
+            </div>
+            <div class="content">
+                <textarea name="texto" class="text-input" id="text" cols="31" rows="14" placeholder="Ingresa el texto aquí"></textarea>
+                
+                <div class="btn-left">
+                    <button class="btn en" type="button" onclick="encriptar()">Encriptar</button>
+                    <button class="btn des" type="button" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="SegCol">
+            <div class="text-hidden" id="hidden">
+                <img class="img" src="./carpeta_imagenes/salida.png" alt="salida">
+                <h2 class="text-1">Buscando mensaje</h2>
+                
+            </div>
+            <div class="mostrar-texto" id="show">
+                <textarea name="texto" class="text-container" id="text-2" cols="30" rows="12"></textarea>
+                <button class="btn des" type="button" onclick="copiar()"> Copiar</button>
+            </div>
+            
+        </div>
+      </div>
+</body>
+</html>

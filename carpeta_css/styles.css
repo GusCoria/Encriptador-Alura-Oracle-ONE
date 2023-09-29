@@ -1,0 +1,156 @@
+
+body{
+    background-color: #dddee2;
+}
+
+.container {
+    margin: auto;
+    width: 1440px;
+    height: 600px;
+    padding: 40px;
+    box-sizing: border-box; 
+    display: flex;
+    
+}
+
+/* ### PRIMERA COLUMNA ### */
+.PrimCol {
+    width: 80%;
+    background-color: #dddee2; /* solo para visualización */
+}
+
+.alura {
+    margin-left: 80px;
+    margin-bottom: 120px;
+}
+
+.content {
+    margin-left: 120px;
+    margin-right: 60px;
+}
+
+.text-input {
+    background-color: #dddee2;
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85%;
+    color: #0A3871;
+}
+
+.text-input::placeholder {
+    color: #0A3871;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+}
+
+.terms p {
+    padding-left: 8px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 12px;
+    color: #485057;
+    opacity: .8;
+}
+
+.img-term {
+    width: 16px;
+    height: 16px;
+}
+
+.btn-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    gap: 20px;
+    border-radius: 24px;
+    margin: 12px;
+    margin-left: 0;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+}
+
+.btn.en {
+    background-color: #0073ff;
+    color: #FFFFFF;
+    
+}
+
+.btn.des {
+    background-color: #D8DFE8;
+    color: #0073ff;
+    border: 1px solid #0073ff;
+}
+
+
+.SegCol {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 40%;
+    height: 100%; /* Reducir la altura al 20% del contenedor */
+    background-color: #FFFFFF;
+    justify-content: center;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.SegCol.img {
+    width: 340px;
+    height: 280px;
+}
+
+.SegCol.text-1 {
+    text-align: center;
+    color: #343A40;
+}
+
+.SegCol.text-2 {
+    text-align: center;
+    color: #343A40;
+}
+
+.text-hidden {
+    display: 1;
+}
+
+.mostrar-texto {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.text-container {
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 100%;
+    margin: 13px;
+    border: none;
+    outline: none;
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80%;
+    color: #343A40;
+}
